@@ -62,8 +62,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main id="main" className="flex-1">
           {children}
         </main>
-        <script src="http://localhost:3000/widget.js" data-ragstudio-token="oPZ1wQK6-32eu2rcsn4lDANh7ENnHiGh_kJnr8kWj18" async></script>
+        
         <Footer />
+        <script src="http://localhost:3000/widget.js" data-ragstudio-token="oPZ1wQK6-32eu2rcsn4lDANh7ENnHiGh_kJnr8kWj18" async></script>
       </body>
     </html>
   );
