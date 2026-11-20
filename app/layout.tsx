@@ -64,7 +64,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         
         <Footer />
-        <script src="http://localhost:3000/widget.js" data-ragstudio-token="oPZ1wQK6-32eu2rcsn4lDANh7ENnHiGh_kJnr8kWj18" async></script>
+       <script src="https://ragstudio.kshrd.app/widget.js" data-ragstudio-token="oPZ1wQK6-32eu2rcsn4lDANh7ENnHiGh_kJnr8kWj18" async></script>
       </body>
     </html>
   );
